@@ -1,0 +1,16 @@
+*
+!.gitignore
+!*.md
+!*.cpp
+!*.hpp
+!*.c
+!*.h
+!src/
+!src/**/
+!include/
+!include/**/
+!build/
+!build/*.sln
+!build/*.vcxproj
+!build/*.vcxproj.filters
+!build/*.props
