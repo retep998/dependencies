@@ -1,0 +1,1 @@
+#define _GLFW_VERSION_FULL "3.0.3"

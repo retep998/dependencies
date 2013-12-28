@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{480C8999-6E7E-4169-A5E7-9BA730F249A7}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="common.props" />
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <PreprocessorDefinitions>_GLFW_WIN32;_GLFW_WGL;_GLFW_USE_OPENGL;_GLFW_USE_DWM_SWAP_INTERVAL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\glfw\clipboard.c" />
+    <ClCompile Include="..\src\glfw\context.c" />
+    <ClCompile Include="..\src\glfw\gamma.c" />
+    <ClCompile Include="..\src\glfw\init.c" />
+    <ClCompile Include="..\src\glfw\input.c" />
+    <ClCompile Include="..\src\glfw\joystick.c" />
+    <ClCompile Include="..\src\glfw\monitor.c" />
+    <ClCompile Include="..\src\glfw\time.c" />
+    <ClCompile Include="..\src\glfw\wgl_context.c" />
+    <ClCompile Include="..\src\glfw\win32_clipboard.c" />
+    <ClCompile Include="..\src\glfw\win32_gamma.c" />
+    <ClCompile Include="..\src\glfw\win32_init.c" />
+    <ClCompile Include="..\src\glfw\win32_joystick.c" />
+    <ClCompile Include="..\src\glfw\win32_monitor.c" />
+    <ClCompile Include="..\src\glfw\win32_time.c" />
+    <ClCompile Include="..\src\glfw\win32_window.c" />
+    <ClCompile Include="..\src\glfw\window.c" />
+  </ItemGroup>
+</Project>
