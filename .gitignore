@@ -5,6 +5,7 @@
 !*.hpp
 !*.c
 !*.h
+!*.txt
 !src/
 !src/**/
 !include/
