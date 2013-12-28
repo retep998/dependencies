@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F57AA071-3FCC-42CE-B580-8199AF6EE6FF}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="common.props" />
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\lz4\lz4.c" />
+    <ClCompile Include="..\src\lz4\lz4hc.c" />
+  </ItemGroup>
+</Project>

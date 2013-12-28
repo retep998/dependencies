@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{80245412-3D04-465F-B89E-01A2EC32BA55}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="common.props" />
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <PreprocessorDefinitions>OPT_GENERIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\mpg123\compat.c" />
+    <ClCompile Include="..\src\mpg123\dct64.c" />
+    <ClCompile Include="..\src\mpg123\equalizer.c" />
+    <ClCompile Include="..\src\mpg123\feature.c" />
+    <ClCompile Include="..\src\mpg123\format.c" />
+    <ClCompile Include="..\src\mpg123\frame.c" />
+    <ClCompile Include="..\src\mpg123\icy.c" />
+    <ClCompile Include="..\src\mpg123\icy2utf8.c" />
+    <ClCompile Include="..\src\mpg123\id3.c" />
+    <ClCompile Include="..\src\mpg123\index.c" />
+    <ClCompile Include="..\src\mpg123\layer1.c" />
+    <ClCompile Include="..\src\mpg123\layer2.c" />
+    <ClCompile Include="..\src\mpg123\layer3.c" />
+    <ClCompile Include="..\src\mpg123\libmpg123.c" />
+    <ClCompile Include="..\src\mpg123\msvc.c" />
+    <ClCompile Include="..\src\mpg123\ntom.c" />
+    <ClCompile Include="..\src\mpg123\optimize.c" />
+    <ClCompile Include="..\src\mpg123\parse.c" />
+    <ClCompile Include="..\src\mpg123\readers.c" />
+    <ClCompile Include="..\src\mpg123\stringbuf.c" />
+    <ClCompile Include="..\src\mpg123\synth.c" />
+    <ClCompile Include="..\src\mpg123\synth_8bit.c" />
+    <ClCompile Include="..\src\mpg123\synth_real.c" />
+    <ClCompile Include="..\src\mpg123\synth_s32.c" />
+    <ClCompile Include="..\src\mpg123\tabinit.c" />
+  </ItemGroup>
+</Project>
