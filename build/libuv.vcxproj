@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{78FD8891-B32A-41D1-A34E-B6CCEA269042}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="common.props" />
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\libuv\fs-poll.c" />
+    <ClCompile Include="..\src\libuv\inet.c" />
+    <ClCompile Include="..\src\libuv\uv-common.c" />
+    <ClCompile Include="..\src\libuv\version.c" />
+    <ClCompile Include="..\src\libuv\win\async.c" />
+    <ClCompile Include="..\src\libuv\win\core.c" />
+    <ClCompile Include="..\src\libuv\win\dl.c" />
+    <ClCompile Include="..\src\libuv\win\error.c" />
+    <ClCompile Include="..\src\libuv\win\fs-event.c" />
+    <ClCompile Include="..\src\libuv\win\fs.c" />
+    <ClCompile Include="..\src\libuv\win\getaddrinfo.c" />
+    <ClCompile Include="..\src\libuv\win\handle.c" />
+    <ClCompile Include="..\src\libuv\win\loop-watcher.c" />
+    <ClCompile Include="..\src\libuv\win\pipe.c" />
+    <ClCompile Include="..\src\libuv\win\poll.c" />
+    <ClCompile Include="..\src\libuv\win\process-stdio.c" />
+    <ClCompile Include="..\src\libuv\win\process.c" />
+    <ClCompile Include="..\src\libuv\win\req.c" />
+    <ClCompile Include="..\src\libuv\win\signal.c" />
+    <ClCompile Include="..\src\libuv\win\stream.c" />
+    <ClCompile Include="..\src\libuv\win\tcp.c" />
+    <ClCompile Include="..\src\libuv\win\thread.c" />
+    <ClCompile Include="..\src\libuv\win\threadpool.c" />
+    <ClCompile Include="..\src\libuv\win\timer.c" />
+    <ClCompile Include="..\src\libuv\win\tty.c" />
+    <ClCompile Include="..\src\libuv\win\udp.c" />
+    <ClCompile Include="..\src\libuv\win\util.c" />
+    <ClCompile Include="..\src\libuv\win\winapi.c" />
+    <ClCompile Include="..\src\libuv\win\winsock.c" />
+  </ItemGroup>
+</Project>
