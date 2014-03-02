@@ -4,6 +4,9 @@
     <ProjectGuid>{78FD8891-B32A-41D1-A34E-B6CCEA269042}</ProjectGuid>
   </PropertyGroup>
   <Import Project="common.props" />
+  <PropertyGroup>
+    <IncludePath>$(SolutionDir)/../include/libuv/;$(IncludePath)</IncludePath>
+  </PropertyGroup>
   <ItemDefinitionGroup>
     <ClCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>

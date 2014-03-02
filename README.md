@@ -6,4 +6,4 @@ Everything else is mine, and I release it to the public domain.
 Versions
 ========
 
-* libuv 0.11.19
+* libuv 0.11.21

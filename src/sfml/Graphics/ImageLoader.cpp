@@ -38,6 +38,8 @@ extern "C"
 }
 #include <cctype>
 
+#define TRUE true
+#define FALSE false
 
 namespace
 {
