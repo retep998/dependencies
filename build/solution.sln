@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zlib", "zlib.vcxproj", "{5C
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "portaudio", "portaudio.vcxproj", "{39873300-A6B7-41EE-B582-4B7FFD034D7D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "squish", "squish.vcxproj", "{EB41FC0F-8419-4F25-8DDD-0B28BA609E60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -71,6 +73,14 @@ Global
 		{39873300-A6B7-41EE-B582-4B7FFD034D7D}.Release|Win32.Build.0 = Release|Win32
 		{39873300-A6B7-41EE-B582-4B7FFD034D7D}.Release|x64.ActiveCfg = Release|x64
 		{39873300-A6B7-41EE-B582-4B7FFD034D7D}.Release|x64.Build.0 = Release|x64
+		{EB41FC0F-8419-4F25-8DDD-0B28BA609E60}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EB41FC0F-8419-4F25-8DDD-0B28BA609E60}.Debug|Win32.Build.0 = Debug|Win32
+		{EB41FC0F-8419-4F25-8DDD-0B28BA609E60}.Debug|x64.ActiveCfg = Debug|x64
+		{EB41FC0F-8419-4F25-8DDD-0B28BA609E60}.Debug|x64.Build.0 = Debug|x64
+		{EB41FC0F-8419-4F25-8DDD-0B28BA609E60}.Release|Win32.ActiveCfg = Release|Win32
+		{EB41FC0F-8419-4F25-8DDD-0B28BA609E60}.Release|Win32.Build.0 = Release|Win32
+		{EB41FC0F-8419-4F25-8DDD-0B28BA609E60}.Release|x64.ActiveCfg = Release|x64
+		{EB41FC0F-8419-4F25-8DDD-0B28BA609E60}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
